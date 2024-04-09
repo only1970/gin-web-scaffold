@@ -1,0 +1,5 @@
+[2024-04-08 10:57:33] [31m[fatal][0m gorm.go:38 gvd_server/core.InitGorm [root:123456@tcp(172.16.13.60:3306)/gvd1?charset=utf8mb4&parseTime=True&loc=Local] mysql 连接失败,err:Error 1049 (42000): Unknown database 'gvd1'
+[2024-04-08 10:59:07] [31m[fatal][0m gorm.go:38 gvd_server/core.InitGorm [root:123456@tcp(172.16.13.60:3306)/gvd1?charset=utf8mb4&parseTime=True&loc=Local] mysql 连接失败,err:Error 1049 (42000): Unknown database 'gvd1'
+[2024-04-08 15:13:23] [31m[fatal][0m redis.go:26 gvd_server/core.InitRedis [Redis<172.16.13.601:6379 db:0>] redis 连接失败,err:dial tcp: lookup 172.16.13.601: no such host
+[2024-04-08 15:13:40] [31m[fatal][0m redis.go:26 gvd_server/core.InitRedis [Redis<:0 db:0>] redis 连接失败,err:dial tcp :0: connect: can't assign requested address
+[2024-04-08 15:16:06] [31m[fatal][0m redis.go:26 gvd_server/core.InitRedis [Redis<172.16.13.601:6379 db:0>] redis 连接失败,err:dial tcp: lookup 172.16.13.601: no such host

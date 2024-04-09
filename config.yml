@@ -1,0 +1,23 @@
+SYSTEM:
+  ip: ""
+  port: 8081
+  env: release  ##debug or release or test  default debug
+LOG:
+  appname: gin-web-scaffold
+  logpath: logs
+MYSQL:
+  host: 127.0.0.1
+  port: 3306
+  config: charset=utf8mb4&parseTime=True&loc=Local
+  db: gwcd
+  user: root
+  password: "xxxxxx"
+  logLevel:  error  ##error or warn or info  default error
+  SetMaxIdleConns: 50
+  SetMaxOpenConns: 100
+REDIS:
+  ip: 127.0.0.1
+  port: 6379
+  db: 0 
+  password: "xxxxxx"
+  poolsize: 100
