@@ -2,8 +2,6 @@ package flags
 
 import (
 	"flag"
-
-	"github.com/bytedance/sonic/option"
 )
 
 type Option struct {
@@ -24,6 +22,18 @@ func Parse() (option *Option) {
 
 //根据不同的参数运行不同的脚本
 
-func (option Option)RunOptions() bool  {
+func (option Option) RunOptions() bool {
+	if option.DB {
+		DB()
+		return true
+	}
+	if option.Port != 8080 {
+		Port(option.Port)
+		return false
+	}
+	if option.Load != "" {
+		Load()
+		return true
+	}
 	return false
 }

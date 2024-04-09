@@ -1,8 +1,10 @@
 package flags
 
-import "fmt"
+import "gvd_server/global"
 
-func Port() {
-	fmt.Println("指定程序端口")
-
+func Port(port int) {
+	if port == 0 {
+		global.Log.Fatal("listen tcp: address 0: invalid port")
+	}
+	global.Config.System.Port = port
 }
