@@ -5,4 +5,5 @@ type Config struct {
 	Logrus Logrus `yaml:"LOG"`
 	MySQL  Mysql  `yaml:"MYSQL"`
 	Redis  Redis  `yaml:"REDIS"`
+	JWT    JWT    `yaml:"JWT"`
 }

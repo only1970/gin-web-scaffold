@@ -21,3 +21,7 @@ REDIS:
   db: 0 
   password: "xxxxxx"
   poolsize: 100
+JWT:
+  expires: 1 ##hours
+  issuer: "gin-web-scaffold"
+  secret: "1qaz2wsx#EDC4rfv"
