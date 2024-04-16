@@ -1,7 +1,7 @@
 package jwt
 
 import (
-	"gvd_server/global"
+	"gin-web-scaffold/global"
 
 	"github.com/dgrijalva/jwt-go/v4"
 )

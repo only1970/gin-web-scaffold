@@ -2,8 +2,8 @@ package core
 
 import (
 	"fmt"
-	"gvd_server/config"
-	"gvd_server/global"
+	"gin-web-scaffold/config"
+	"gin-web-scaffold/global"
 	"os"
 
 	"gopkg.in/yaml.v3"

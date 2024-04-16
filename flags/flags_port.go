@@ -1,6 +1,6 @@
 package flags
 
-import "gvd_server/global"
+import "gin-web-scaffold/global"
 
 func Port(port int) {
 	if port == 0 {

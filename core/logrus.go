@@ -3,7 +3,7 @@ package core
 import (
 	"bytes"
 	"fmt"
-	"gvd_server/config"
+	"gin-web-scaffold/config"
 	"os"
 	"path"
 

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"gvd_server/core"
-	"gvd_server/flags"
-	"gvd_server/global"
-	"gvd_server/routers"
+	"gin-web-scaffold/core"
+	"gin-web-scaffold/flags"
+	"gin-web-scaffold/global"
+	"gin-web-scaffold/routers"
 )
 
 func main() {

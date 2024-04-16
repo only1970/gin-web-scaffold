@@ -1,4 +1,4 @@
-module gvd_server
+module gin-web-scaffold
 
 go 1.20
 

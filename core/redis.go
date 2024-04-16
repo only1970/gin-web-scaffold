@@ -3,7 +3,7 @@ package core
 import (
 	"context"
 	"fmt"
-	"gvd_server/global"
+	"gin-web-scaffold/global"
 	"time"
 
 	"github.com/go-redis/redis"

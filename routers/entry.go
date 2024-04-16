@@ -2,7 +2,7 @@ package routers
 
 import (
 	"fmt"
-	"gvd_server/global"
+	"gin-web-scaffold/global"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,0 +1,1 @@
+[2024-04-16 09:17:51] [31m[fatal][0m gorm.go:38 gin-web-scaffold/core.InitGorm [root:xxxxxx@tcp(127.0.0.1:3306)/gwcd?charset=utf8mb4&parseTime=True&loc=Local] mysql 连接失败,err:dial tcp 127.0.0.1:3306: connect: connection refused

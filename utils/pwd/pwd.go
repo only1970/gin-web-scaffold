@@ -1,7 +1,7 @@
 package pwd
 
 import (
-	"gvd_server/global"
+	"gin-web-scaffold/global"
 
 	"golang.org/x/crypto/bcrypt"
 )
@@ -11,6 +11,7 @@ func HashPwd(pwd string) string {
 	hash, err := bcrypt.GenerateFromPassword([]byte(pwd), bcrypt.MinCost)
 	if err != nil {
 		global.Log.Errorln(err)
+		
 	}
 	return string(hash)
 }

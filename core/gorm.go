@@ -2,7 +2,7 @@ package core
 
 import (
 	"fmt"
-	"gvd_server/global"
+	"gin-web-scaffold/global"
 	"time"
 
 	"gorm.io/driver/mysql"
@@ -41,6 +41,6 @@ func InitGorm() *gorm.DB {
 	sqlDB.SetMaxIdleConns(global.Config.MySQL.SetMaxIdleConns) // 最大连接数
 	sqlDB.SetMaxOpenConns(global.Config.MySQL.SetMaxOpenConns) // 最多容量
 	sqlDB.SetConnMaxLifetime(time.Hour * 4)                    //连接最大复用时间
-	fmt.Printf("%s:%d mysql 初始化成功\n",global.Config.MySQL.Host,global.Config.MySQL.Port)
+	fmt.Printf("%s:%d mysql 初始化成功\n", global.Config.MySQL.Host, global.Config.MySQL.Port)
 	return db
 }

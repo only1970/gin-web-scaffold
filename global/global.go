@@ -1,7 +1,7 @@
 package global
 
 import (
-	"gvd_server/config"
+	"gin-web-scaffold/config"
 
 	"github.com/go-redis/redis"
 	"github.com/sirupsen/logrus"
